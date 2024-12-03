@@ -1,13 +1,13 @@
 import { useState } from 'react';
 
 export const GreetingComponent = () => {
-    const [name, setName] = useState ('Hello Pax');
+    const [name, setName] = useState ('Hello, Pax');
     
     const handleClick = () => {
-      if (name == "Hello Pax"){
-       setName ("Goodbye Pax");
+      if (name == "Hello, Pax"){
+       setName ("Goodbye, Pax");
       } else {
-        setName ("Hello Pax")
+        setName ("Hello, Pax")
         
       }
     
